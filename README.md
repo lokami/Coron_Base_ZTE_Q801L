@@ -1,3 +1,3 @@
 devices/ZTE-Q801L
 
-个人适配机型Coolpad8720L，供参考。
+个人适配机型ZTE-Q801L，供参考。
