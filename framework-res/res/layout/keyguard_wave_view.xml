@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.policy.impl.keyguard.KeyguardWaveView android:orientation="vertical" android:id="@id/keyguard_wave_view" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/keyguard_accessibility_slide_unlock"
+  xmlns:prvandroid="http://schemas.android.com/apk/prv/res/android"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.android.internal.policy.impl.keyguard.ZTEGestureOverlayView android:layout_gravity="center" android:id="@id/lockGestureOverlay" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:gestureColor="#ff62a800" android:gestureStrokeType="multiple" />
+        <com.android.internal.policy.impl.keyguard.MultiWaveView android:layout_gravity="center" android:id="@id/wave_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TextView android:textSize="18.0dip" android:layout_gravity="bottom|center" android:id="@id/unlock_prompt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/keygurad_unlock_eara_title_margin_bottom" android:text="@string/unlock_eara_prompt" android:alpha="153.0" style="@style/UnlockText" />
+        <include android:gravity="center" android:layout_gravity="bottom|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/keygurad_eac_scroller_height" layout="@layout/keyguard_eca_scroller" />
+    </FrameLayout>
+</com.android.internal.policy.impl.keyguard.KeyguardWaveView>

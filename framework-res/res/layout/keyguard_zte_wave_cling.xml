@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.policy.impl.keyguard.Cling android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/unlock_eara" android:layout_width="fill_parent" android:layout_height="@dimen/keyguard_zte_scroller_height">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/unlock_app_arrow" />
+    </LinearLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/unlock_eara" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/keyguard_zte_scroller_height" android:layout_marginBottom="@dimen/keygurad_eac_scroller_height">
+        <TextView android:textColor="@color/white" android:id="@id/unlock_eara_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/unlock_widget_prompt" />
+        <LinearLayout android:orientation="vertical" android:id="@id/unlock_eara" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:textSize="23.0dip" android:textColor="@color/white" android:id="@id/unlock_eara_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:text="@string/unlock_eara_title" />
+            <TextView android:textColor="@color/white" android:id="@id/unlock_eara_prompt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:text="@string/unlock_eara_prompt" />
+            <ImageView android:layout_gravity="right" android:id="@id/unlock_eara_wave" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="40.0dip" android:src="@drawable/unlock_wave" />
+        </LinearLayout>
+        <TextView android:textColor="@color/white" android:id="@id/unlock_eara_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/unlock_eara_app_title" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:id="@id/unlock_app" android:layout_width="fill_parent" android:layout_height="@dimen/keygurad_eac_scroller_height">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/unlock_app_arrow" />
+    </LinearLayout>
+</com.android.internal.policy.impl.keyguard.Cling>

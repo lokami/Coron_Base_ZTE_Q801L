@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packages>
+    <package id = "1">
+      <name>com.tencent.mobileqq</name>
+      <interval>1</interval>
+    </package>
+    <package id = "2">
+      <name>com.sina.weibo</name>
+      <interval>1</interval>
+    </package>
+    <package id = "3">
+      <name>com.hf</name>
+      <interval>1</interval>
+    </package>
+    <package id = "4">
+      <name>com.baidu.searchbox_tianyi</name>
+      <interval>1</interval>
+    </package>
+    <package id = "5">
+      <name>com.tencent.mm</name>
+      <interval>1</interval>
+    </package>
+    <package id = "6">
+      <name>im.yixin</name>
+      <interval>1</interval>
+    </package>
+    <package id = "7">
+      <name>com.jingdong.app.mall</name>
+      <interval>1</interval>
+    </package>
+    <package id = "8">
+      <name>com.youku.phone</name>
+      <interval>1</interval>
+    </package>
+    <package id = "9">
+      <name>com.imangi.templerun2</name>
+      <interval>Force</interval>
+    </package> 
+</packages>

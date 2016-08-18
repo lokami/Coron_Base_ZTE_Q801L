@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.policy.impl.keyguard.KeyguardNewEventView android:gravity="center_horizontal" android:paddingTop="@dimen/keyguard_new_message_margintop" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="4.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/unlock_call" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/kg_status_date_font_size" android:gravity="center" android:id="@id/call" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/ic_new_event_call" android:drawablePadding="6.0dip" style="@style/UnlockText" />
+        <TextView android:textSize="17.0dip" android:id="@id/call_num" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/UnlockText" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/unlock_mms" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/kg_status_date_font_size" android:gravity="center" android:id="@id/mms" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/ic_new_event_message" android:drawablePadding="6.0dip" style="@style/UnlockText" />
+        <TextView android:textSize="17.0dip" android:id="@id/mms_num" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/UnlockText" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/unlock_calendar" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/kg_status_date_font_size" android:gravity="center" android:id="@id/calendar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/ic_new_event_calendar" android:drawablePadding="6.0dip" style="@style/UnlockText" />
+        <TextView android:textSize="17.0dip" android:id="@id/calendar_num" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/UnlockText" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/unlock_email" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/kg_status_date_font_size" android:gravity="center" android:id="@id/email" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/ic_new_event_mail" android:drawablePadding="6.0dip" style="@style/UnlockText" />
+        <TextView android:textSize="17.0dip" android:id="@id/email_num" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/UnlockText" />
+    </LinearLayout>
+</com.android.internal.policy.impl.keyguard.KeyguardNewEventView>

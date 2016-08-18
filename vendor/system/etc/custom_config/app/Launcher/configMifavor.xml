@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>  
+    <integer name="wallpaper_alpha_blur">0</integer>
+	<integer name="config_desktopScreens">4</integer>
+    <integer name="config_defaultScreen">1</integer>	
+    <bool name="support_theme_change">false</bool>
+    <bool name="support_lockscreen_wallpaper_setting">true</bool>
+    <bool name="stk_need_bg_icon">true</bool>
+    <bool name="browser_need_bg_icon">true</bool>
+</resources>

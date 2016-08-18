@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.policy.impl.keyguard.ZTEWaveScroller android:gravity="center" android:id="@id/wave_scroller" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:gravity="center" android:layout_gravity="center" android:id="@id/keyguard_selector_fade_container" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/keyguard_eca" />
+        <ImageView android:layout_gravity="right|center" android:id="@id/unlock_app_prompt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/zte_unlock_app_prompt_anim" />
+    </FrameLayout>
+    <include android:gravity="center" android:layout_gravity="center" android:id="@id/wave_app" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/keyguard_wave_item_view_layout" />
+</com.android.internal.policy.impl.keyguard.ZTEWaveScroller>

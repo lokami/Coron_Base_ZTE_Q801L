@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.policy.impl.keyguard.WaveKeyguardHostView androidprv:gravity="center_horizontal" androidprv:orientation="vertical" androidprv:id="@id/wave_keyguard_host_view" androidprv:layout_width="fill_parent" androidprv:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:androidprv="http://schemas.android.com/apk/res/android">
+    <com.android.internal.policy.impl.keyguard.KeyguardSecurityContainer androidprv:gravity="bottom|center" androidprv:layout_gravity="bottom|center" androidprv:id="@id/keyguard_security_container" androidprv:layout_width="fill_parent" androidprv:layout_height="fill_parent" androidprv:layout_childType="challenge">
+        <com.android.internal.policy.impl.keyguard.KeyguardSecurityViewFlipper androidprv:gravity="bottom|center" androidprv:layout_gravity="bottom|center" androidprv:id="@id/view_flipper" androidprv:clipChildren="false" androidprv:clipToPadding="false" androidprv:layout_width="fill_parent" androidprv:layout_height="fill_parent" />
+    </com.android.internal.policy.impl.keyguard.KeyguardSecurityContainer>
+    <include layout="@layout/keyguard_zte_scroller" />
+</com.android.internal.policy.impl.keyguard.WaveKeyguardHostView>
